@@ -1,0 +1,119 @@
+.header-image {
+	background-image: url("img/header_image.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+li {
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+body {
+	background-color: #333;
+	text-decoration: none;
+	color: white;
+}
+h1{
+	margin: 0.5em;
+	font-size: 3em;
+	font-family: arial;
+	text-align: center;
+	color: orange;
+}
+h2 {
+	margin: 0.5em;
+	font-size: 1.5em;
+	font-family: arial;
+	color: orange;
+}
+main p a{
+	margin: 0.5em 0.7em;
+	font-size: 1em;
+	color: orange;
+}
+.news img {
+	width: 12%;
+	float: left;
+	padding: 0.5em;
+	margin: 0 1em 0.5em 0.5em;
+}
+.news h2 {
+	margin: 0.5em 0.7em;
+	font-size: 1.5em;
+	color: white;
+}
+.news h2 a{
+	margin: 0.5em 0.7em;
+	font-size: 1em;
+	color: orange;
+}
+.news p a{
+	margin: 0.5em 0.7em;
+	font-size: 1em;
+	color: orange;
+}
+.news hr {
+	margin: 1em;
+	border: 1px dotted #27318b;
+	clear: both;
+}
+.news_gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: right;
+	width: 21%;
+	border: 1px solid black;
+}
+.news_gallery figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 16%;
+	border: 1px solid black;
+}
+#gallery figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 22%;
+	border: 1px solid black;
+}
+#gallery figcaption {
+	font-size: 90%;
+	height: 50px;
+	text-align: center;
+}
+footer {
+	background-color: #333;
+	padding: 0.1em;
+	clear: both;
+}
+footer p {
+	color: orange;
+	text-align: center;
+	margin: 0.5em;
+}
+footer p a {
+	color: orange;
+	text-align: center;
+	margin: 0.5em;
+}
